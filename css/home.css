@@ -31,7 +31,8 @@
 
 	  div.introduction{
 		position: fixed;
-		height: 300px;
+		width: auto;
+		height: auto;
 	  }
 	  div.introduction>p{
 		  float: left;
