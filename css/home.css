@@ -33,6 +33,7 @@
 		position: fixed;
 		width: auto;
 		height: auto;
+		margin-bottom: 100px;
 	  }
 	  div.introduction>p{
 		  float: left;
