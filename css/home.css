@@ -1,0 +1,52 @@
+	html{
+		background-color: rgba(31, 134, 72, 0.9);
+		padding:5%;
+	  }
+	  
+	  body{
+		background-color: hsla(189, 73%, 19%, 0.5);
+		color: hsla(180, 100%, 100%, 0.9)
+	  }
+	  
+	  header h1{
+		background-color: rgba(155, 15, 15, 0.9);
+	  }
+	  
+	  footer{
+		  background-color: rgba(135, 155, 20, 0.9);
+		  color: hsla(180,0%,25%,0.9);
+	  
+	  }
+	  
+	  body{
+		  font-family: "tablet-gothic-condensed",verdana, arial, sans-serif; 
+	  }
+
+	  div.introduction{
+		position: fixed;
+	  }
+	  div.introduction>p{
+		  float: left;
+	  }
+	  div.introduction>img{
+		float: right;
+	}
+
+	  div.navigation{
+		position: fixed;
+		top: 50px;
+		left: 50px;
+		height: 100px;
+	  }
+
+	  li{
+		  display: inline;
+	  }
+
+	  div.assignments{
+		position: absolute;
+	  }
+
+	  footer{
+		position: fixed;
+	  }
