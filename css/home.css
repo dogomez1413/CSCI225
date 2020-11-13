@@ -22,8 +22,16 @@
 		  font-family: "tablet-gothic-condensed",verdana, arial, sans-serif; 
 	  }
 
+	  div.navigation{
+		position: fixed;
+		top: 50px;
+		left: 50px;
+		height: 100px;
+	  }
+
 	  div.introduction{
 		position: fixed;
+		height: 300px;
 	  }
 	  div.introduction>p{
 		  float: left;
@@ -32,12 +40,7 @@
 		float: right;
 	}
 
-	  div.navigation{
-		position: fixed;
-		top: 50px;
-		left: 50px;
-		height: 100px;
-	  }
+	  
 
 	  li{
 		  display: inline;
