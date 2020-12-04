@@ -5,16 +5,18 @@
 	<body>
 
 		<head>
-			<link rel="stylesheet" href="css/home.css">
+			<link rel="stylesheet" href="css/contactMe.css">
 			<title> CSCI225 Contact Me </title>
 	
-			<ul>
-				<li><a href = https://www.usca.edu>USCA Main Website</a></li>
-				<li><a href = #assignments>Assignments</a></li>
-				<li><a href = #contactInfo>Contact Information</a></li>
-				<li><a href = https://youtube.com>Youtube</a></li>
-				<li><a href = https://twitter.com>Twitter</a></li>
-			</ul>
+			<div class = navigation>
+				<ul class = "list-inline">
+					<li><a href = https://www.usca.edu>USCA Main Website</a></li>
+					<li><a href = #assignments>Assignments</a></li>
+					<li><a href = #contactInfo>Contact Information</a></li>
+					<li><a href = https://youtube.com>Youtube</a></li>
+					<li><a href = https://twitter.com>Twitter</a></li>
+				</ul>
+			</div>
 		</head>
 
 
@@ -23,8 +25,10 @@
         </div>
         
 		<p></p>
-		<p>
-			<form name="feedback">
+		<p class ="form-control-static">
+			<div class = form>
+			<form class="form-vertical" name="feedback">
+				<div class="form-control">
 				<label for="fname">First name:</label><br>
 				<input type="text" id="fname" name="fname" value="anonymous" attribute = "required"><br>
 				<label for="lname">Last name:</label><br>
@@ -34,14 +38,22 @@
   				<input type="date" id="birthday" name="birthday">
 				  <br>
 				  
-
 				<label for="fname">E-MAIL:</label><br>
 				<input type="text" id="mail" name="mail" value="name@domain.com"><br>
 				<br>
 
 				<label for="phone">Enter your phone number:</label>
 				<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+				<br>
 
+				<label for="comments">Comments:</label><br>
+				<textarea id="comments" name="comments" rows="4" cols="50">Write your comments here</textarea><br>
+				</div>
+
+
+
+
+				<div class="form-check">
 				<label for="recommend">Would you recommend this website?</label><br>
 				<br>
 				<input type="radio" id="yes" name="yes" value="yes">
@@ -58,16 +70,21 @@
 				  <option value="time">Time Magazine</option>
 				  <option value="discord">Discord</option>
 				</select><br><br>
+				</div>
 
+
+				
+
+				<div class="form-range">
 				<label for="rating">Rate my Website:</label><br>
 				<input type="range" id="rating" name="rating" min="0" max="10"><br>
-				
-				<label for="comments">Comments:</label><br>
-				<textarea id="comments" name="comments" rows="4" cols="50">Write your comments here</textarea><br>
-				  
+				</div>
+
+				<small class="form-text text-muted"> Your password …..</small>				  
 				<input type="submit" value="Submit">
 				<input type="reset">
 			  </form> 
+			</div>
 		</p>
 	</body>
 

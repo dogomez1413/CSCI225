@@ -1,0 +1,23 @@
+.navigation {
+    background-color: rgb(102, 94, 94);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.embeddedvideo{
+    width: 55%;
+    margin-right: 2%;
+    float: left;
+    border: round;
+    border-radius: 10%;
+}
+
+.form{
+    float: left;
+    width: 45%;
+}
+
+.p {
+    font-family: 'Times New Roman', Times, serif;
+}
